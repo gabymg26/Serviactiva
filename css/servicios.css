@@ -1,0 +1,208 @@
+/*Principal*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E9F7EF ;
+    
+}
+
+header{
+    background:url(head-back.png) no-repeat center center fixed;
+	background-size:cover;
+	height:250px;
+	width: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.imagen_logo{
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+/*Barra*/
+
+#barra{
+    position: absolute;
+    top: 75px;
+    right: 0;
+
+}
+
+#barra li{
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+
+#barra a:hover{
+    color: #c78c19;
+}
+
+#barra a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 1000;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+/*Catalogo*/
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20rem;
+    clear: left;
+}
+
+.contenidoPrincipal-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 1%;
+    background-color: #A9DFBF;
+    text-align: center;
+    box-shadow: 2px 2px 2px #CCC;
+    position: relative;
+    padding: 18px;
+}
+
+.contenidoPrincipal-cursos-link a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contenidoPrincipal-cursos-link:hover {
+	box-shadow: 4px 4px 4px #CCC;
+}
+
+/*Servicios generales*/
+
+.servicios{
+    background-color: #A9DFBF;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 55px !important;
+    clear: left;
+
+    padding: 2vh;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: -2px 3px 3px 0px #cbc5c5;
+}
+
+.servicios_generales p{
+    text-align: left;
+    padding: 3vh 3vh 3vh 3vh;
+}
+
+
+/*Poda de jardines*/
+
+.poda{
+    background-color: #A9DFBF;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 55px;
+    clear: left;
+
+    padding: 2vh;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: -2px 3px 3px 0px #cbc5c5;
+}
+
+.poda_jardines p{
+    text-align: left;
+    padding: 3vh 3vh 3vh 3vh;
+}
+
+/*Limpieza de tanques*/
+
+.tanques{
+    background-color: #A9DFBF;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 55px;
+    clear: left;
+
+    padding: 2vh;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: -2px 3px 3px 0px #cbc5c5;
+}
+
+.limpieza_tanques p{
+    text-align: left;
+    padding: 3vh 3vh 3vh 3vh;
+}
+
+/*Servicio de salvavidas*/
+
+.salvavidas{
+    background-color: #A9DFBF;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 55px;
+    clear: left;
+
+    padding: 2vh;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: -2px 3px 3px 0px #cbc5c5;
+}
+
+.servicio_salvavidas p{
+    text-align: left;
+    padding: 3vh 3vh 3vh 3vh;
+}
+
+/*sg*/
+
+.sg p{
+    text-align: left;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+/*Footer*/
+.footers{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link-face{
+    display: flex;
+    gap: 30px;
+}
+
+.informacion{
+    margin-left: 50px;
+    font-weight: 100;
+}
+
+footer{
+    background-color: #7DCEA0;
+}
